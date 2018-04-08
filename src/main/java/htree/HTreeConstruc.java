@@ -13,7 +13,7 @@ public class HTreeConstruc
         double len = length/(Math.sqrt(2));      
         drawLine(xleft, y, xright, y);
         drawLine(xleft, yleft, xleft, yright);
-        drawLine(x+(length/2), yleft, xright, yright);
+        drawLine(xright, yleft, xright, yright);
         drawHTree(len, depth-1, xleft,yleft);
         drawHTree(len, depth-1, xleft,yright);
         drawHTree(len, depth-1, xright,yleft);
